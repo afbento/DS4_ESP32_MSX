@@ -3,7 +3,8 @@ ESP32 adapter to use a DualShock4 game controller on a MSX computer via bluetoot
 
 ON ESP32 code it was used the PS4-esp32 Library (https://github.com/aed3/PS4-esp32)
 
-# Remapping buttons:
+
+## Remapping buttons:
 To enter on configuration mode, press OPTIONS one time (DS4 LED will turn GREEN)
 
 Choose the desirable buttons in the following sequence : UP, DOWN, RIGHT, LEFT, TRIGGER 1, TRIGGER 2 (DS4 LED will blink white when release each button)
@@ -14,7 +15,8 @@ Choose this sequence of buttons for Joystick 1 and 2, then it will return automa
 
 You can press OPTIONS two times before the sequence ends, to return to operational mode and save the modified buttons on ESP32.
 
-# Adjusting "deadzone" parameters:
+
+## Adjusting "deadzone" parameters:
 
 To enter on deadzone mode, press OPTIONS 2 times (DS4 LED will turn YELLOW)
 
@@ -28,7 +30,8 @@ and press CIRCLE to modify this deadzone parameter (DS4 LED will turn white when
 
 To save these configurations on ESP32 and return to Operational mose, press OPTIONS.
 
-# Some schematic and code explanations:
+
+## Some schematic and code explanations:
 
 There are two versions of the schematics to this project:
 
