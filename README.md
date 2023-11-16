@@ -1,7 +1,7 @@
 # DS4_ESP32_MSX
 ESP32 adapter to use a DualShock4 game controller on a MSX computer via bluetooth connection
 
-ON ESP32 code it was used the PS4-esp32 Library (https://github.com/aed3/PS4-esp32)
+On the ESP32 code it was used the PS4-esp32 Library (https://github.com/aed3/PS4-esp32) to establish Bluetooth connection.
 
 
 ## Remapping buttons:
