@@ -37,7 +37,7 @@ There are two versions of the schematics to this project:
 
 One that ignores PIN8(OUT) of the MSX joystick port. 
 
-And one that ESP32 disables U2 or U3, if the PIN8 signal of the corresponding Joystick is HIGH.
+And one that ESP32 disables U2 or U3 and sets its output signals to Hi-Z, if the PIN8 signal of the corresponding Joystick is HIGH.
 
 The ESP32 code can be used with these versions without any modification.
 
