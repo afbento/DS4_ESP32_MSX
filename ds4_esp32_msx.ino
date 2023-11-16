@@ -20,7 +20,7 @@
 #define TRIG1_JOY2  19
 #define TRIG2_JOY2  21
 
-int deadzone=64,deadzone2=90,i,j,x,y;
+int deadzone=64,deadzone2=90,i,j,x,y,x1;
 
 String text;
 
@@ -162,7 +162,7 @@ void loop() {
       keymap1[13]=1;
     }
 
-    if(mode==0)	{
+    if(mode==0)	{   //operational mode
             
       PS4.setLed(84,85,237);
 
@@ -201,7 +201,7 @@ void loop() {
       PS4.sendToController();
     }
     
-    if(mode==1) {
+    if(mode==1) {    //Remapping mode
       PS4.setLed(0,255,0);PS4.sendToController();
       if(kmode1==-1) {
         for(i=0;i<30;i++) if((keymap2[i])&&(!keymap1[i])) {kmode1=i;keymap1[i]=1;}
@@ -214,10 +214,11 @@ void loop() {
       if(pindex==12) {mode=0;save_config();}
     } 
     
-    if(mode==2) {
+    if(mode==2) {  //Adjusting "deadzones" mode
       x=abs(PS4.LStickX());
       y=abs(PS4.L2Value());
-      PS4.setLed(32+y/1.15,32,x*2);
+      x1=x*2;if(x1>255) x1=255;
+      PS4.setLed(32+y/1.15,32,x1);
       if((keymap2[5]==1)&&(x>32)) {deadzone=x;PS4.setLed(255,255,255);}
       if((keymap2[6]==1)&&(x>32)) {deadzone2=x;PS4.setLed(255,255,255);}
       PS4.sendToController();
