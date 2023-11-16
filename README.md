@@ -5,7 +5,7 @@ On the ESP32 code it was used the PS4-esp32 Library (https://github.com/aed3/PS4
 
 
 ## Remapping buttons:
-To enter on configuration mode, press OPTIONS one time (DS4 LED will turn GREEN)
+To enter on Remapping mode, press OPTIONS one time (DS4 LED will turn GREEN)
 
 Choose the desirable buttons in the following sequence : UP, DOWN, RIGHT, LEFT, TRIGGER 1, TRIGGER 2 (DS4 LED will blink white when release each button)
 
@@ -18,7 +18,7 @@ You can press OPTIONS two times before the sequence ends, to return to Operation
 
 ## Adjusting "deadzone" parameters:
 
-To enter on deadzone mode, press OPTIONS 2 times (DS4 LED will turn YELLOW)
+To enter on Deadzone mode, press OPTIONS 2 times (DS4 LED will turn YELLOW)
 
 To choose the deadzone value for the Analog Sticks, press LSTICK to right or left (DS4 LED will from faint YELLOW to BLUE, according to analog stick move intensity),
 
