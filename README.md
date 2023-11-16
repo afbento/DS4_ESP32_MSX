@@ -11,9 +11,9 @@ Choose the desirable buttons in the following sequence : UP, DOWN, RIGHT, LEFT, 
 
 Almost all of DS4 buttons can be chosen, except OPTIONS button.
 
-Choose this sequence of buttons for Joystick 1 and 2, then it will return automatically to operational mode and will save this configuration on ESP32.
+Choose this sequence of buttons for Joystick 1 and 2, then it will return automatically to Operational mode and will save this configuration on ESP32.
 
-You can press OPTIONS two times before the sequence ends, to return to operational mode and save the modified buttons on ESP32.
+You can press OPTIONS two times before the sequence ends, to return to Operational mode and save the modified buttons on ESP32.
 
 
 ## Adjusting "deadzone" parameters:
@@ -28,7 +28,7 @@ To chosse the deadzone value for R2 and L2 buttons, press L2 (DS4 LED will from 
 
 and press CIRCLE to modify this deadzone parameter (DS4 LED will turn white when CIRCLE button is pressed).
 
-To save these configurations on ESP32 and return to Operational mose, press OPTIONS.
+To save these configurations on ESP32 and return to Operational mode, press OPTIONS.
 
 
 ## Some schematic and code explanations:
