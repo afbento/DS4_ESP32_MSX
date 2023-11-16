@@ -20,7 +20,7 @@ You can press OPTIONS two times before the sequence ends, to return to Operation
 
 ## Adjusting "deadzone" parameters:
 
-To enter on Deadzone mode, press OPTIONS 2 times (DS4 LED will turn YELLOW)
+To enter on Deadzone mode, press OPTIONS 2 times (DS4 LED will turn faint YELLOW)
 
 To choose the deadzone value for the Analog Sticks, press LSTICK to right or left (DS4 LED will from faint YELLOW to BLUE, according to analog stick move intensity),
 
